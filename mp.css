@@ -1,0 +1,21 @@
+.all{
+    border-style: solid;
+    border-color: #00bc9a; 
+}
+.container{
+    float: left;
+    width: 300px;
+    border-style: solid;
+    border-color: #ff007f;
+}
+li{
+    color: #ff007f;
+}
+.section{
+    margin-left: 306px; 
+    border-style: solid;
+    border-color: #ff7f00; 
+}
+.top{
+    border-bottom: solid #ff7f00;
+}

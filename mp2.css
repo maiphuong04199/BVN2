@@ -1,0 +1,108 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+} 
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.clear{
+    clear: both;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    background-color: #00CCCC;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    height: 200px; 
+    transition: all 0.5s;
+}
+
+.button span, .two2 span, .two3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1s;
+}
+
+.button span:after, .two2 span:after, .two3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 50px;
+}
+.two1{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    background-color: #111;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 80%;
+    height: 60px; 
+}
+.two2{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    background-color: #FF0066; 
+    font-size: 20px;
+    width: 20%;
+    height: 60px;
+    border: none;
+}
+.two2:hover span, .two3:hover span{
+    padding-right: 20px;
+}
+.two3{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    background-color: #660066; 
+    font-size: 30px;
+    width: 30%;
+    height: 200px;
+    border: none;
+}
+.picture1, .picture2{
+    float: left;
+    width: 35%;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+#p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.p1, .p2{
+    float: left;
+    width: 50%;
+}
+.p1 p{
+    margin-left: 50px; 
+}
